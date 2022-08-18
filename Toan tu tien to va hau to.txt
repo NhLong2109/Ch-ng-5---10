@@ -1,0 +1,31 @@
+---Tiền tố---
+var a = 5;
+++a;  //a = a + 1 = 5 + 1 = 6
+var output = ++a;
+alert(output); // = 6
+==> xuất ra màn hình trả về giá trị sau khi cộng là a = 6
+alert(a); //= 6
+
+
+var b = 9;
+--b;  //b = b - 1 = 9 - 1 = 8
+var output = --b;
+alert(output); // = 8
+==> xuất ra màn hình trả về giá trị sau khi trừ là b = 8
+alert(b); // = 8 
+
+
+---Hậu tố---
+var a = 6;
+a++; // a = a + 1 = 6 + 1 = 7
+var output = a++;
+alert(output); // = 6
+==> xuất ra màn hình trả về giá trị trước khi cộng là a = 6
+alert(a); // = 7
+
+var b = 9;
+b--; // b" = b - 1 = 9 - 1 = 8
+var output = b--;
+alert(output); // = 9
+==> xuất ra màn hình trả về giá trị trước khi trừ là b = 9
+alert(b); // b = 8
