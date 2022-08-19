@@ -1,0 +1,1 @@
+alert('Đây là thanh thông báo JS')
